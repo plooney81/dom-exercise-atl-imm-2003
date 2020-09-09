@@ -10,6 +10,7 @@ for (let index = 0; index < addresses.length; index++) {
     let newAnchor = document.createElement('a');
     newAnchor.setAttribute('href', addresses[index]);
     newAnchor.setAttribute('target', '_blank')
+    newAnchor.setAttribute('style', 'margin-right: 10px;')
     newAnchor.textContent = "click here"
     container.appendChild(newAnchor)
 }
